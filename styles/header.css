@@ -1,0 +1,21 @@
+.header {
+  height: 100px;
+  border-width: 1px;
+  border-style: solid;
+  border-bottom-color: orangered;
+  
+}
+.middle-section {
+  display: flex;
+  justify-content: space-between;
+}
+.burger-icon {
+  height: 80px;
+  margin: 5px 5px 5px 5px;
+}
+.title {
+  font-size: 60px;
+  font-family: "Playpen Sans", cursive;
+  margin: 0;
+  color: orangered;
+}

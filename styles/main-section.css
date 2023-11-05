@@ -1,0 +1,160 @@
+.main-section {
+  font-family: "Playpen Sans", cursive;
+  color: white;
+  font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.item-category {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.item-button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-family: "Playpen Sans", cursive;
+}
+.item-button:hover {
+  background-color: rgb(237, 237, 237);
+  color: black;
+}
+
+.item-icon {
+  width: 80px;
+  height: 80px;
+}
+.item-name {
+  margin: 0;
+}
+/* }
+---------------------------------------------------------------------------------- */
+.bottom-section {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 1fr 500px;
+  color: white;
+}
+.menu-section div {
+  text-align: center;
+  /* font-size: large; */
+}
+.menu-section-header {
+  color: orange;
+  font-size: larger;
+  background-color: gray;
+  margin-left: 5px;
+ /* position: absolute; */
+}
+.menu-section {
+  width:1fr;
+  height:500px;
+  color: white;
+  display: grid;
+  grid-template-columns: 200px 1fr 1fr 1fr;
+  align-items: center;
+  overflow-y: scroll;
+  row-gap: 3px;
+  font-family: "Playpen Sans", cursive;
+  /* position:relative; */
+  /* overflow: hidden;
+  overflow-y: scroll;
+  background-color: blue; */
+
+}
+.menu-section::-webkit-scrollbar{
+  width:4px;
+}
+.menu-section::-webkit-scrollbar-thumb{
+ background:rgb(235, 67, 11);
+ border-radius: 6px;
+}
+.cart {
+  color: white;
+}
+.bun-type {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Playpen Sans", cursive;
+}
+.product-images {
+  width: 100px;
+}
+.add-to-cart-button {
+  background-color: orange;
+  border: none;
+  border-radius: 10px;
+  padding: 5px 15px 5px 15px;
+  font-weight: 600;
+  font-family: "Playpen Sans", cursive;
+}
+
+.bun-cost,
+.bun-calories {
+  font-family: "Playpen Sans", cursive;
+}
+
+/* .menu-section{
+  position:relative;
+} */
+/*-----------------------------------------------------*/
+.cart{
+  background-color: rgb(76, 76, 76);
+  position: relative;
+}
+h3{
+  color: #E8BC0E
+}
+
+.cart .checkout{
+  position: absolute;
+  bottom:0;
+  width:100%;
+  background-color: #E8BC0E;
+  display: grid;
+  grid-template-columns: 1fr 1fr;color:black;
+  font-family: "Playpen Sans", cursive;
+  height:30px;
+}
+
+.listcard{
+  /* background-color: aqua; */
+  height:400px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  overflow-y: scroll;
+  row-gap:2px;
+}
+.listcard::-webkit-scrollbar{
+  width:4px;
+}
+.listcard::-webkit-scrollbar-thumb{
+ background:#E8BC0E;
+ border-radius: 6px;
+}
+.listcard div{
+  font-family: "Playpen Sans", cursive;
+  text-align: center;
+  height:30px;
+  max-height:35px;
+}
+.delete-button{
+  height:30px;
+  background-color: orange;
+  border: solid;
+  border-radius: 10px;
+  border-color: black;
+  cursor:pointer;
+  border-width:1px;
+}
+/* .cost{
+  margin-right: 2px;
+} */
+.checkout div{
+  text-align: center;
+}
